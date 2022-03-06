@@ -1,0 +1,32 @@
+{
+  "name": "node_agilenttunecheckparser",
+  "version": "1.0.0",
+  "description": "Parse Agilent MS Tune Evaluation PDFs into useful PoD",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf ./dist && tsc",
+    "start": "npm run build && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JamesxX/node_agilentTuneCheckParser.git"
+  },
+  "keywords": [
+    "Agilent",
+    "Typescript",
+    "Tune",
+    "Evaluation"
+  ],
+  "author": "James R Swift",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/JamesxX/node_agilentTuneCheckParser/issues"
+  },
+  "homepage": "https://github.com/JamesxX/node_agilentTuneCheckParser#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.2"
+  }
+}
